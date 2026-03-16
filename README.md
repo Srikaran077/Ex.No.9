@@ -1,7 +1,7 @@
 # Ex.No.9 Exploration of Prompting Techniques for Video Generation
 
-#### Name: Srikaran M
-#### Reg.No: 212223040206
+## Name: Srikaran M
+## Reg.No: 212223040206
 
 ## Aim:
 To demonstrate the ability of text-to-Video generation tools to reproduce an existing Video by crafting precise prompts. The goal is to identify key elements within the Video and use these details to generate an Video as close as possible to the original.
