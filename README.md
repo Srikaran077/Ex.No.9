@@ -1,20 +1,10 @@
 # Ex.No.9 Exploration of Prompting Techniques for Video Generation
 
-# Name : SRIKARAN M
-# Reg. No. : 212223040206
+# Date:26/09/2025
+# Reg. No.:212223040206
 
 # Aim:
 To demonstrate the ability of text-to-Video generation tools to reproduce an existing Video by crafting precise prompts. The goal is to identify key elements within the Video and use these details to generate an Video as close as possible to the original.
-
-# AI tools for video generation from text :
-
-1.Pika Labs (cinematic quality)
-2.Stable Video Diffusion / Sora (photorealistic urban scenes)
-3.Runway Gen-2 (3D simulation)
-4.Kaiber AI (educational animations)
-5.MidJourney (artistic storytelling)
-6.Genmo (artistic and symbolic videos)
-
 ## Procedure:
 1.	Analyze the Generated Video:
 ○	Examine the Video carefully, noting key elements such as:
@@ -59,38 +49,63 @@ Tools/LLMs for Video Generation:
 3.	Prompts Used: The text prompts created during the experiment.
 4.	Comparison Report: A report highlighting the differences and similarities between the original and generated Videos, along with any adjustments made to the prompt.
 
-# Prompts :
 
-```
 
-1. “A slow camera pan over snow-covered mountains at sunrise, golden light reflecting on the peaks, with soft mist moving through the valley.”
+# Prompt :
+## 1.Create a Simple Prompt:
+#### A short and direct description to generate a basic scene.
 
-2. “A bustling street in Tokyo at night, neon signs glowing, people walking with umbrellas in the rain, puddles reflecting colorful lights.”
+A short video of bored college students sitting in a dull classroom, staring at the clock and daydreaming
 
-3. “A 3D animation of the human heart beating in high definition, arteries and veins clearly visible, with labels highlighting each part.”
+## Video :
 
-4. “A majestic dragon flying above ancient castles during sunset, wings casting shadows on the ground, cinematic fantasy style.”
 
-5. “A single red rose slowly blooming in black-and-white surroundings, time-lapse effect, soft piano music mood.”
 
-```
 
-# Results :
+https://github.com/user-attachments/assets/224dd63f-048f-4e92-befd-a5f6fff5c928
 
-1 :
-https://app.pixverse.ai/home?detail=show&id=361967698177328&platform=web
 
-2 :
-https://app.pixverse.ai/home?detail=show&id=361968132676151&platform=web
 
-3 :
-https://app.pixverse.ai/home?detail=show&id=361968604314168&platform=web
 
-4 :
-https://app.pixverse.ai/home?detail=show&id=361969517431915&platform=web
 
-5 :
-https://hailuoai.video/share/ai-video/QAo8APz2Rqq3?source-scene=shared&source-media=shared_link
+This prompt was used  hailuoai.vide and Make-A-Video to observe basic animation, environment understanding, and subject motion.
+# Prompt :
+## 2.Create a Detailed Prompt:
+#### A descriptive prompt with more context, action, and setting.
+
+A high-energy battle scene featuring multiple One Piece characters clashing for fun on a sunny open field near the ocean. Luffy is laughing while stretching his arm for a Gomu Gomu punch, Zoro is swinging his three swords with a confident grin, Sanji is mid-air delivering a fiery kick, Nami is summoning a lightning strike with her Clima-Tact, Usopp is firing a slingshot in the background, Robin is creating giant arms to block attacks, Franky is firing a laser, Brook is playing his sword like a violin while slashing, and Chopper is in his Monster Point form roaring playfully. The sky is bright blue with fluffy clouds, the ocean sparkles in the distance, and there’s a sense of chaotic fun with colorful energy effects, dust clouds, and motion blur to capture their dynamic movements.
+– Style: vibrant anime style, dynamic poses, dramatic action lighting, highly detailed character expressions.
+
+## Video :
+
+
+
+https://github.com/user-attachments/assets/00c5e763-a16a-41ef-b625-8cb85d853591
+
+
+
+
+This prompt was run in Imagen Video and Make-A-Video to assess how well the model handles detailed instructions and renders natural scenery with realistic motion.
+
+
+# Prompt : 
+# Advance Creative Prompt :
+
+Create a 20-second cinematic video of a college campus during a sudden heavy rainstorm, where an announcement declares classes cancelled. Show raindrops splashing on a notice board with the words “Leave Declared Due to Rain,” students lighting up with excitement, texting friends, high-fiving, and rushing outside with colorful umbrellas. Capture puddles reflecting gray skies, wet pathways, and joyful chaos as some students laugh and run into the rain while others take selfies. Use smooth tracking shots, occasional slow motion, a cool blue-gray color palette with pops of vibrant raincoats, and a soundscape of pouring rain, distant thunder, and upbeat background music.
+## Video :
+
+
+
+
+https://github.com/user-attachments/assets/b6d0a4dc-e75f-44a5-bf61-39360475db35
+
+
+
+# Overview Report :
+![Screenshot 2025-05-19 003541](https://github.com/user-attachments/assets/235ceefb-2bb7-4341-b9f3-5a84adfe39ac)
+
+
+
 
 ## Conclusion:
 By using detailed and well-crafted prompts, text-to-Video generation models can be effective in reproducing an Video closely. The quality of the generated Video depends on how accurately the prompt describes the Video's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate Videos that closely match real-world visuals, which is useful for creative and practical applications.
